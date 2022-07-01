@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: rgb(254, 240, 255);
+  height: 100vh;
+  margin: 0;
+  padding: 100px;
+}
+
+.container {
+  margin-top: 15px;
+}
+
+#validateMsgStyle {
+  color: darkred;
+}
+
+.tasks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-body {
+  flex: 50%;
+  margin: 40px;
+  padding: 100px;
+}
+
+.fa-solid {
+  margin-top: 0.75rem;
+  margin-right: 0.75rem;
+}
